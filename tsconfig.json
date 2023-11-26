@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "ES6",
+    "lib": [
+      "ES6",
+      "DOM",
+      "DOM.Iterable",
+      "ScriptHost"
+    ],
+    "strict": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "outDir": "public",
+    "baseUrl": "./src",
+    "paths": {
+      "*": [
+        "../node_modules/*"
+      ],
+      "@apps/*": [
+        "../apps/*"
+      ],
+      "@assets": [
+        "../assets/*"
+      ],
+      "@src/*": [
+        "../src/*"
+      ],
+      "@utils/*": [
+        "../utils/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "apps/**/*",
+    "assets/**/*",
+    "src/utils/**/*",
+    "src/theme/**/*",
+    "svgmodule.d.ts",
+    "pngmodule.d.ts",
+    "jpgmodule.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "public",
+    "src/stories/**/*",
+    "**/*.stories.tsx"
+  ]
+}
