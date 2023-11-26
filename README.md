@@ -1,8 +1,8 @@
 # React Starter
 
-This starter kit is a boilerplate for React, Typescript.
+This starter kit is a boilerplate for React, Typescript, GSAP and Styled-Components.
 
-It has some further customizations to include Gsap and Styled Components.
+The folder `apps` is at the same level as `src`, and allows smaller front-end apps to be developed separately.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ It has some further customizations to include Gsap and Styled Components.
 $ git clone
 $ cd react-starter
 $ npm install
-$ npm run start
+
 ```
 
 ## Features
@@ -30,7 +30,6 @@ $ npm run start
 
 ### Configuration
 
-- Multiple entry points
 - TS aliases
 - Prettier
 - Eslint

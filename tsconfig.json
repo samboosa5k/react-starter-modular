@@ -7,21 +7,21 @@
       "DOM",
       "DOM.Iterable"
     ],
-    "strict": true,
-    "isolatedModules": true,
-    "moduleResolution": "node",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "allowSyntheticDefaultImports": true,
-    "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "resolveJsonModule": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
     "outDir": "public",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
     "baseUrl": ".",
     "paths": {
       "@apps/*": [
@@ -33,6 +33,9 @@
       "@src/*": [
         "./src/*"
       ],
+      "@atoms/*": [
+        "./src/atoms/*"
+      ],
       "@utils/*": [
         "./utils/*"
       ]
@@ -40,10 +43,12 @@
   },
   "include": [
     "index.tsx",
-    "src/**/*",
     "apps/**/*",
     "assets/**/*",
+    "src/**/*",
     "utils/**/*",
+    "src/atoms/**/*",
+    "process.d.ts",
     "svgmodule.d.ts",
     "pngmodule.d.ts",
     "jpgmodule.d.ts"

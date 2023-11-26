@@ -10,7 +10,8 @@ const { createWebpackAliases } = require('./webpack.helpers');
 module.exports = createWebpackAliases({
     '@src': 'src',
     '@apps': 'apps',
+    '@atoms': 'src/atoms',
     '@assets': 'assets',
     '@utils': 'utils',
-    '@theme': 'theme',
+    '@theme': 'src/theme',
 });
