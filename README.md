@@ -11,11 +11,23 @@ The folder `apps` is at the same level as `src`, and allows smaller front-end ap
 
 ## Quick Start
 
+For starting `apps/App.tsx`:
+
 ```bash
 $ git clone
 $ cd react-starter
 $ npm install
+$ npm run start:app
+```
 
+For adding/starting new apps, make sure to modify the `package.json` file to point to the correct `APP_PATH`.
+
+```json
+{
+  "scripts": {
+    "start:app2": "cross-env NODE_ENV=development APP_PATH=./apps/App2.tsx webpack serve --config webpack.config.dev.js"
+  }
+}
 ```
 
 ## Features
@@ -39,6 +51,7 @@ $ npm install
 - svg module declaration
 - jpg module declaration
 - png module declaration
+- process.env declaration
 
 ## Contributors
 
@@ -46,4 +59,6 @@ $ npm install
 
 ## Resources
 
-- [Codesbiome](https://codesbiome.com/) - Author of the original boilerplate
+- [Codesbiome](https://github.com/codesbiome) - Author of the original boilerplate
+- [Boilerplate Template](https://github.com/codesbiome/react-webpack-typescript-2023) - The repo where the 2022 version
+  of the boilerplate was.
