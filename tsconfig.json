@@ -5,8 +5,7 @@
     "lib": [
       "ES6",
       "DOM",
-      "DOM.Iterable",
-      "ScriptHost"
+      "DOM.Iterable"
     ],
     "strict": true,
     "isolatedModules": true,
@@ -23,31 +22,28 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "outDir": "public",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "*": [
-        "../node_modules/*"
-      ],
       "@apps/*": [
-        "../apps/*"
+        "./apps/*"
       ],
       "@assets": [
-        "../assets/*"
+        "./assets/*"
       ],
       "@src/*": [
-        "../src/*"
+        "./src/*"
       ],
       "@utils/*": [
-        "../utils/*"
+        "./utils/*"
       ]
     }
   },
   "include": [
+    "index.tsx",
     "src/**/*",
     "apps/**/*",
     "assets/**/*",
-    "src/utils/**/*",
-    "src/theme/**/*",
+    "utils/**/*",
     "svgmodule.d.ts",
     "pngmodule.d.ts",
     "jpgmodule.d.ts"

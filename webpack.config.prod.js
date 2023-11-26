@@ -1,6 +1,6 @@
 module.exports = {
     mode: 'production',
-    entry: ['./src/index.tsx'],
+    entry: ['./index.tsx'],
     module: {
         rules: require('./webpack.rules'),
     },

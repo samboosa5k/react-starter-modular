@@ -13,12 +13,9 @@
     "^react(.*)$",
     "^react",
     "^styled-components$",
-    "^@/types(.*)",
-    "^@/utils(.*)",
-    "^@/layout(.*)",
-    "^@/modules(.*)",
-    "^@/components(.*)",
-    "^@/theme(.*)",
+    "^@types(.*)",
+    "^@utils(.*)",
+    "^@theme(.*)",
     "^[./]",
     "^[.]"
   ],
@@ -26,5 +23,8 @@
   "importOrderSortSpecifiers": true,
   "importOrderCaseInsensitive": true,
   "importOrderGroupNamespaceSpecifiers": true,
-  "importOrderParserPlugins": ["typescript", "jsx"]
+  "importOrderParserPlugins": [
+    "typescript",
+    "jsx"
+  ]
 }
