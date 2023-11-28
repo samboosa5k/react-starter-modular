@@ -1,9 +1,12 @@
+import tommy from '@assets/tommy_portret.png';
+
 export const App = () => {
     return (
         <>
-            <div className="App">
-                <header className="App-header">
+            <div className='App'>
+                <header className='App-header'>
                     <h1>Test second app</h1>
+                    <img src={tommy} className='App-logo' alt='logo' />
                 </header>
             </div>
             {/*<GlobalStyle*/}

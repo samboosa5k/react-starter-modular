@@ -1,5 +1,6 @@
+# Conventions
 
-### CSS Sort Order
+## CSS sort order
 
 ```code
 display,
