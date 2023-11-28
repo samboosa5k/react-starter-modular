@@ -1,3 +1,4 @@
 import { FC } from 'react';
 
-export const Button: FC<{ text: string }> = ({ text }) => <button>{text}</button>;
+export const Button: FC<{ text: string, onClick: () => void }> = ({ text, onClick }) =>
+    <button onClick={onClick}>{text}</button>;
