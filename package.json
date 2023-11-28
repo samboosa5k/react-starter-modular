@@ -4,11 +4,11 @@
   "description": "Original boilerplate @ https://github.com/codesbiome/react-webpack-typescript-2022",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack serve --config webpack.config.dev.js",
-    "start:app": "cross-env NODE_ENV=development APP_PATH=./apps/App.tsx webpack serve --config webpack.config.dev.js",
-    "start:app2": "cross-env NODE_ENV=development APP_PATH=./apps/App2.tsx webpack serve --config webpack.config.dev.js",
-    "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
-    "serve": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js && cross-env serve public/",
+    "start": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.config.dev.js",
+    "start:app": "cross-env NODE_ENV=development APP_PATH=./apps/App.tsx webpack serve --config ./config/webpack.config.dev.js",
+    "start:app2": "cross-env NODE_ENV=development APP_PATH=./apps/App2.tsx webpack serve --config ./config/webpack.config.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.prod.js",
+    "serve": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.prod.js && cross-env serve public/",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
