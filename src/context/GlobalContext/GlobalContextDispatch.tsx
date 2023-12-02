@@ -1,5 +1,5 @@
 import { createContext, Dispatch, FC, ReactNode, useCallback, useContext } from 'react';
-import { Action } from '@src/context/GlobalContext/reducer';
+import { Action } from './reducer';
 
 export interface GlobalContextDispatchProps {
     children: ReactNode;

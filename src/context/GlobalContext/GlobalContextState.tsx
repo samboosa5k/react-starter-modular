@@ -1,5 +1,5 @@
 import { createContext, FC, ReactNode, useContext, useReducer } from 'react';
-import { reducer } from '@src/context/GlobalContext/reducer';
+import { reducer } from './reducer';
 import { GlobalContextDispatchProvider } from '@src/context';
 
 /**

@@ -1,0 +1,1 @@
+export { withPropsLogging } from './withPropsLogging';
