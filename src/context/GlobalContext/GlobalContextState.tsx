@@ -1,6 +1,6 @@
 import { createContext, FC, ReactNode, useContext, useReducer } from 'react';
 import { reducer } from './reducer';
-import { GlobalContextDispatchProvider } from '@src/context';
+import { GlobalContextDispatchProvider } from './GlobalContextDispatch';
 
 /**
  * @description Define the initial state of the context

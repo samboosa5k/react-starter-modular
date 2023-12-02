@@ -11,6 +11,7 @@ module.exports = createWebpackAliases({
     '@src': 'src',
     '@apps': 'apps',
     '@atoms': 'src/atoms',
+    '@molecules':'src/molecules',
     '@assets': 'assets',
     '@context': 'src/context',
     '@HOC': 'src/HOC',

@@ -1,4 +1,4 @@
-import { InitialState } from '@src/context/GlobalContext/GlobalContextState';
+import { InitialState } from './GlobalContextState';
 
 export type Action = {
     type: string;

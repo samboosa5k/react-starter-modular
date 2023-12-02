@@ -6,8 +6,8 @@ export type WrappedComponentType = FC<PropsType>;
 export const compose = (...hooks: HooksArray) => {
     return (WrappedComponent: WrappedComponentType) => {
         return (props: PropsType) => {
-            const reduced = hooks.reduce((acc, fn) => fn(acc), props);
-            return <WrappedComponent {...reduced} />;
+            const reducedHooks = hooks.reduce((acc, fn) => fn(acc), props);
+            return <WrappedComponent {...reducedHooks} />;
         };
     };
 };

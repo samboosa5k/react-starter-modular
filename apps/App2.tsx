@@ -1,5 +1,5 @@
 import { Button } from '@atoms/Button';
-import { GlobalContextProvider, useGlobalContext, useGlobalContextDispatch } from '@src/context';
+import { useGlobalContext, useGlobalContextDispatch, GlobalContextProvider } from '@context/GlobalContext';
 
 const App = () => {
     const { appName } = useGlobalContext();

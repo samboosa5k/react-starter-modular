@@ -30,11 +30,11 @@
       "@assets": [
         "./assets/*"
       ],
-      "@src/*": [
-        "./src/*"
-      ],
       "@atoms/*": [
         "./src/atoms/*"
+      ],
+      "@molecules/*": [
+        "./src/molecules/*"
       ],
       "@HOC/*": [
         "./src/HOC/*"
@@ -54,12 +54,13 @@
     "index.tsx",
     "apps/**/*",
     "assets/**/*",
-    "src/**/*",
     "utils/**/*",
     "src/atoms/**/*",
+    "src/molecules/**/*",
     "src/context/**/*",
     "src/HOC/**/*",
     "src/hooks/**/*",
+    "src/**/*",
     "process.d.ts",
     "svgmodule.d.ts",
     "pngmodule.d.ts",

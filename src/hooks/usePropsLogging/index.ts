@@ -9,6 +9,6 @@ export const usePropsLogging = (props: PropsType) => {
         logProps(props);
     }, [logProps, props]);
 
-    return { logProps };
+    return { logProps, ...props };
 };
 
