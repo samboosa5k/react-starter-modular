@@ -12,6 +12,9 @@ module.exports = createWebpackAliases({
     '@apps': 'apps',
     '@atoms': 'src/atoms',
     '@assets': 'assets',
+    '@context': 'src/context',
+    '@HOC': 'src/HOC',
+    '@hooks': 'src/hooks',
     '@utils': 'utils',
     '@theme': 'src/theme',
 });

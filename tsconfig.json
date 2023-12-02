@@ -36,6 +36,15 @@
       "@atoms/*": [
         "./src/atoms/*"
       ],
+      "@HOC/*": [
+        "./src/HOC/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@context/*": [
+        "./src/context/*"
+      ],
       "@utils/*": [
         "./utils/*"
       ]
@@ -48,6 +57,9 @@
     "src/**/*",
     "utils/**/*",
     "src/atoms/**/*",
+    "src/context/**/*",
+    "src/HOC/**/*",
+    "src/hooks/**/*",
     "process.d.ts",
     "svgmodule.d.ts",
     "pngmodule.d.ts",
