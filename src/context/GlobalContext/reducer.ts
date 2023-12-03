@@ -13,6 +13,7 @@ export type Action = {
 export const reducer = (state: InitialState, action: Action): InitialState => {
     switch (action.type) {
         case 'SET_APP_NAME':
+            console.log('setting app name');
             return {
                 ...state,
                 appName: action.payload,

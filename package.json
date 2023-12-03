@@ -7,7 +7,7 @@
     "start": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.config.dev.js",
     "start:app": "cross-env NODE_ENV=development APP_PATH=./apps/App.tsx webpack serve --config ./config/webpack.config.dev.js",
     "start:app2": "cross-env NODE_ENV=development APP_PATH=./apps/App2.tsx webpack serve --config ./config/webpack.config.dev.js",
-    "start:app3": "cross-env NODE_ENV=development APP_PATH=./apps/AppWithComposedHook.tsx webpack serve --config ./config/webpack.config.dev.js",
+    "start:app3": "cross-env NODE_ENV=development APP_PATH=./apps/ComposedHook/Main.tsx webpack serve --config ./config/webpack.config.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.prod.js",
     "serve": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.prod.js && cross-env serve public/",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
@@ -65,6 +65,7 @@
   "dependencies": {
     "@types/gsap": "^3.0.0",
     "@types/react-router-dom": "^5.3.3",
+    "prettier": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.6",
